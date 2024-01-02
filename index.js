@@ -16,8 +16,8 @@ function getExcuse(){
     let cuando = when [valorWhen];
 
     console.log("A", quien, accion, que, cuando);
-    return quien+" "+ accion +" "+ que +" "+ cuando
+    return quien+" "+ accion +" "+ que +" "+ cuando;
 }
 
 
-document.querySelector("#excuse").innerHTML = getExcuse()
+document.querySelector("#excuse").innerHTML = getExcuse();
